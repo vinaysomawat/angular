@@ -3,7 +3,7 @@ import {Detail} from './detail';
 export const DETAILS: Detail =  
     {
         name: 'Vinay Somawat',
-        image: '/assets/images/profile.jpg',
+        image: '/angular/assets/images/profile.jpg',
         summary: 'I am a software developer engineer and computer science undergraduate student at National Institute of Technology, Warangal.',
         banner: 'You will be happy to know that I have completed over 20+ projects successfully!',
         skills: [
@@ -153,7 +153,7 @@ export const DETAILS: Detail =
         androiddevproject: [
             {
                 projectname: 'NITW-CSE',
-                image: '/assets/images/nitwcse.jpg',
+                image: '/angular/assets/images/nitwcse.jpg',
                 summary: 'App contains details of Dept courses, ref. books, research, publication and faculty profile.',
                 preview: 'https://github.com/vinaysomawat/NITW-CSE',
                 techstack: [
@@ -170,7 +170,7 @@ export const DETAILS: Detail =
             },
             {
                 projectname: 'CareerHigh-App',
-                image: '/assets/images/carrerhigh.png',
+                image: '/angular/assets/images/carrerhigh.png',
                 summary: 'The app shows the content of website careerhigh.in in android devices.',
                 preview: 'https://github.com/vinaysomawat/CareerHigh-Android',
                 techstack: [
@@ -190,7 +190,7 @@ export const DETAILS: Detail =
         softwaredevproject: [
             {
                 projectname: 'Pizza Ordering ChatBOT',
-                image: '/assets/images/pizzaorderchatbot.png',
+                image: '/angular/assets/images/pizzaorderchatbot.png',
                 summary: 'ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.',
                 preview: 'https://github.com/vinaysomawat/Pizza-Ordering-ChatBot',
                 techstack: [
@@ -204,7 +204,7 @@ export const DETAILS: Detail =
             },
             {
                 projectname: 'WhatsApp-Bot',
-                image: '/assets/images/whatsappbot.jpg',
+                image: '/angular/assets/images/whatsappbot.jpg',
                 summary: 'Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.',
                 preview: 'https://github.com/vinaysomawat/WhatsApp-Bot',
                 techstack: [
@@ -221,7 +221,7 @@ export const DETAILS: Detail =
             },
             {
                 projectname: 'Bill Generator',
-                image: '/assets/images/billgenerator.png',
+                image: '/angular/assets/images/billgenerator.png',
                 summary: 'GUI to transfer data to excel sheets and generate bills on the local shops.',
                 preview: 'https://github.com/vinaysomawat/Bill-Generator',
                 techstack: [
@@ -238,7 +238,7 @@ export const DETAILS: Detail =
             },
             {
                 projectname: 'Nodejs-web-crawling',
-                image: '/assets/images/nodejswebcrawling.png',
+                image: '/angular/assets/images/nodejswebcrawling.png',
                 summary: 'By sending HTTP request to a particular URL and then by extracting HTML of that web page for getting useful information is known as crawling or web scraping.',
                 preview: 'https://github.com/vinaysomawat/Nodejs-Web-Crawling',
                 techstack: [
@@ -258,7 +258,7 @@ export const DETAILS: Detail =
             },
             {
                 projectname: 'Calculator GUI',
-                image: '/assets/images/calculatorgui.png',
+                image: '/angular/assets/images/calculatorgui.png',
                 summary: 'Calculator GUI for mathematical calculation.',
                 preview: 'https://github.com/vinaysomawat/Calculator-using-tkinter',
                 techstack: [
@@ -274,7 +274,7 @@ export const DETAILS: Detail =
         webdevproject: [
             {
                 projectname: 'Travographer-Portal',
-                image: '/assets/images/tg-portal.png',
+                image: '/angular/assets/images/tg-portal.png',
                 summary: 'It is an implementation to Setup Amazon S3 in a Django Project, how to use S3 to handle user uploaded files.',
                 preview: 'https://github.com/vinaysomawat/Travographer-Portal',
                 techstack: [
@@ -297,7 +297,7 @@ export const DETAILS: Detail =
             },
             {
                 projectname: 'Programming Diaries',
-                image: '/assets/images/programmingdiaries.png',
+                image: '/angular/assets/images/programmingdiaries.png',
                 summary: 'Developed an blog application to provide content on Programming, web and android development to all the programmers and budding programmers across the internet.',
                 preview: 'https://programmingdiaries.herokuapp.com/',
                 techstack: [
@@ -326,7 +326,7 @@ export const DETAILS: Detail =
             },
             {
                 projectname: 'DeveloperAtYourDoor',
-                image: '/assets/images/developeratyourdoor.png',
+                image: '/angular/assets/images/developeratyourdoor.png',
                 summary: 'Angular and spring based tool which shows a filtered list of developer profiles using back end APIs.',
                 preview: 'https://github.com/vinaysomawat/DeveloperAtYourDoor',
                 techstack: [
@@ -358,7 +358,7 @@ export const DETAILS: Detail =
             },
             {
                 projectname: 'Web-Porfolio',
-                image: '/assets/images/portfolio.png',
+                image: '/angular/assets/images/portfolio.png',
                 summary: 'Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.',
                 preview: 'https://vinaysomawat.github.io/',
                 techstack: [
@@ -381,7 +381,7 @@ export const DETAILS: Detail =
             },
             {
                 projectname: 'Resume Builder',
-                image: '/assets/images/resume-builder.png',
+                image: '/angular/assets/images/resume-builder.png',
                 summary: 'Web based editor to build Resumes in a customizable templates.',
                 preview: 'https://vinaysomawat.github.io/Resume-Builder',
                 techstack: [
@@ -404,7 +404,7 @@ export const DETAILS: Detail =
             },
             {
                 projectname: 'Django File Handle',
-                image: '/assets/images/djangofilehandle.png',
+                image: '/angular/assets/images/djangofilehandle.png',
                 summary: 'Users can upload any img/pdf file and can view it with its cover picture with delete functionality.',
                 preview: 'http://somawatvinay.pythonanywhere.com/',
                 techstack: [
