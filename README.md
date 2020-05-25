@@ -1,27 +1,266 @@
-# Angular
+# vinaysomawat.github.io-Angular
+
+This project is the angular version of [portfolio site](https://vinaysomawat.github.io).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm install` to install package.json.
+Run `ng serve` for a dev server. 
+Navigate to `http://localhost:4200/`. 
 
-## Code scaffolding
+Add the portfolio data to `src/app/shared/details.ts` file.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`
+{
+        name: '',
+        image: '/angular/assets/images/profile.jpg',
+        summary: 'I am a software developer engineer and computer science undergraduate student at National Institute of Technology, Warangal.',
+        banner: 'You will be happy to know that I have completed over 20+ projects successfully!',
+        skills: [
+            {
+                name: 'Algorithms/C++(STL)',
+                progress: 'width:50%',
+                progressval: '50'
+            },
+            {
+                name:'MongoDB/ExpressJS/Angular/NodeJS',
+                progress: 'width:50%',
+                progressval: '50'
+            }
+        ],
+        github: 'https://github.com/vinaysomawat',
+        githubusername: 'vinaysomawat',
+        buymecoffee: 'https://www.buymeacoffee.com/r194dME8y',
+        quora: 'https://quora.com/profile/Vinay-Somawat',
+        linkdin: 'https://www.linkedin.com/in/vinaysomawat/',
+        workExperience: [
+            {
+                company: 'ThinkPedia LLP',
+                role: 'Software Developement Engineering Intern',
+                duration: 'May 2019 - June 2019',
+                summary:[
+                    {
+                        summaryline: 'Developed Customer Web Application for social media management from scratch.'
+                    },
+                    {
+                        summaryline: 'Designed frontend with Angular 7 and backend services with Java framework spring-boot.'
+                    },
+                    {
+                        summaryline: 'Worked in System Design, System Testing, API Integration and Cloud Services for the deployment and production of the application.'
+                    }
+                ] 
+            },
+            {
+                company: 'Fossasia Organization',
+                role: 'Open Source Contributor',
+                duration: 'December 2018 - April 2019',
+                summary:[
+                    {
+                        summaryline: 'Contributed in projects Badgeyay, OpenEvent Frontend, account.susi.ai.'
+                    },
+                    {
+                        summaryline: 'Raised 13 pull requests and 10+ front-end and backend issues. Also reviewed, perfected and pushed the codes of other developers in production.'
+                    }
+                ] 
+            }
+        ],
+        education: [
+            {
+                degree: 'Bachelors in Computer Science and Engineering',
+                institute: 'National Institute of Technology, Warangal',
+                summary: [
+                    {
+                        summaryline: 'Courses undertaken Data Strucutures and Algorithms, Operating Systems, Database Management Systems, Networks, Distributed Computing, Object Oriented Programming, Computer Architecture.'
+                    }
+                ]
+            },
+            {
+                degree: 'Intermediate',
+                institute: 'Board of Secondary Education, Rajasthan',
+                summary: [
+                    {
+                        summaryline: 'Courses undertaken Physics, Chemistry and Mathematics.'
+                    }
+                ]
+            }
+        ],
+        mail: 'vinaysomawat40@gmail.com',
+        socialMedia: [
+            {
+                name: 'Linkdin',
+                link: 'https://www.linkedin.com/in/vinaysomawat/'
+            },
+            {
+                name: 'Twitter',
+                link: 'https://www.linkedin.com/in/vinaysomawat/'
+            },
+            {
+                name: 'Quora',
+                link: 'https://quora.com/profile/Vinay-Somawat'
+            },
+            {
+                name: 'Medium',
+                link: 'https://medium.com/@vinaysomawat'
+            },
+            {
+                name: 'Instagram',
+                link: 'https://www.instagram.com/somawatvinay/'
+            },
+        ],
+        cpprofile: [
+            {
+                name: 'CodeChef',
+                link: 'https://www.codechef.com/users/somawatvinay'
+            },
+            {
+                name: 'HackerRank',
+                link: 'https://www.hackerrank.com/somawatvinay'
+            },
+            {
+                name: 'HackerEarth',
+                link: 'https://www.hackerrank.com/somawatvinay'
+            },
+            {
+                name: 'Geeksforgeeks',
+                link: 'https://auth.geeksforgeeks.org/user/somawatvinay/profile'
+            }
+        ],
+        androiddevproject: [
+            {
+                projectname: 'NITW-CSE',
+                image: '/angular/assets/images/nitwcse.jpg',
+                summary: 'App contains details of Dept courses, ref. books, research, publication and faculty profile.',
+                preview: 'https://github.com/vinaysomawat/NITW-CSE',
+                techstack: [
+                    {
+                        name: 'java'
+                    },
+                    {
+                        name: 'XML'
+                    },
+                    {
+                        name: 'Photoshop'
+                    }
+                ]
+            },
+            {
+                projectname: 'CareerHigh-App',
+                image: '/angular/assets/images/carrerhigh.png',
+                summary: 'The app shows the content of website careerhigh.in in android devices.',
+                preview: 'https://github.com/vinaysomawat/CareerHigh-Android',
+                techstack: [
+                    {
+                        name: 'java'
+                    },
+                    {
+                        name: 'XML'
+                    },
+                    {
+                        name: 'Photoshop'
+                    }
+                ]
+            }
 
-## Build
+        ],
+        softwaredevproject: [
+            {
+                projectname: 'Pizza Ordering ChatBOT',
+                image: '/angular/assets/images/pizzaorderchatbot.png',
+                summary: 'ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.',
+                preview: 'https://github.com/vinaysomawat/Pizza-Ordering-ChatBot',
+                techstack: [
+                    {
+                        name: 'DialogFlow'
+                    },
+                    {
+                        name: 'Firebase'
+                    }
+                ]
+            },
+            {
+                projectname: 'WhatsApp-Bot',
+                image: '/angular/assets/images/whatsappbot.jpg',
+                summary: 'Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.',
+                preview: 'https://github.com/vinaysomawat/WhatsApp-Bot',
+                techstack: [
+                    {
+                        name: 'Selenium'
+                    },
+                    {
+                        name: 'Chrome Webdriver'
+                    },
+                    {
+                        name: 'Python'
+                    }
+                ]
+            }
+        ],
+        webdevproject: [
+            {
+                projectname: 'Travographer-Portal',
+                image: '/angular/assets/images/tg-portal.png',
+                summary: 'It is an implementation to Setup Amazon S3 in a Django Project, how to use S3 to handle user uploaded files.',
+                preview: 'https://github.com/vinaysomawat/Travographer-Portal',
+                techstack: [
+                    {
+                        name: 'Django'
+                    },
+                    {
+                        name: 'AWS'
+                    },
+                    {
+                        name: 'Bootstrap'
+                    },
+                    {
+                        name: 'JavaScript'
+                    },
+                    {
+                        name: 'Heroku'
+                    }
+                ]
+            },
+            {
+                projectname: 'Programming Diaries',
+                image: '/angular/assets/images/programmingdiaries.png',
+                summary: 'Developed an blog application to provide content on Programming, web and android development to all the programmers and budding programmers across the internet.',
+                preview: 'https://programmingdiaries.herokuapp.com/',
+                techstack: [
+                    {
+                        name: 'Django'
+                    },
+                    {
+                        name: 'SQLite3'
+                    },
+                    {
+                        name: 'Bootstrap'
+                    },
+                    {
+                        name: 'HTML5'
+                    },
+                    {
+                        name: 'CSS3'
+                    },
+                    {
+                        name: 'JavaScript'
+                    },
+                    {
+                        name: 'Heroku'
+                    }
+                ]
+            }
+        ]
+    };
+`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Host on gh-pages
 
-## Running unit tests
+Run `sudo npm install -g angular-cli-ghpages` to install angular-cli-ghpages.
+Run ` ng build --prod --base-href "https://<username>.github.io/<projectname>/"` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ngh --dir dist/angular` to push the dist/angular package to git branch.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Live
 
-## Running end-to-end tests
+The project is live on `https://<username>.github.io/<projectname>/`.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
