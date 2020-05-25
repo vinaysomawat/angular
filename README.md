@@ -12,7 +12,7 @@ Navigate to `http://localhost:4200/`.
 
 Add the portfolio data to `src/app/shared/details.ts` file.
 
-`
+```
 {
         name: '',
         image: '/angular/assets/images/profile.jpg',
@@ -124,7 +124,7 @@ Add the portfolio data to `src/app/shared/details.ts` file.
             }
         ]
     };
-`
+```
 
 ## Host on gh-pages
 
