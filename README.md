@@ -129,7 +129,9 @@ Add the portfolio data to `src/app/shared/details.ts` file.
 ## Host on gh-pages
 
 Run `sudo npm install -g angular-cli-ghpages` to install angular-cli-ghpages.
+
 Run ` ng build --prod --base-href "https://<username>.github.io/<projectname>/"` to build the project. The build artifacts will be stored in the `dist/` directory.
+
 Run `ngh --dir dist/angular` to push the dist/angular package to git branch.
 
 ## Live
