@@ -23,11 +23,6 @@ Add the portfolio data to `src/app/shared/details.ts` file.
                 name: 'Algorithms/C++(STL)',
                 progress: 'width:50%',
                 progressval: '50'
-            },
-            {
-                name:'MongoDB/ExpressJS/Angular/NodeJS',
-                progress: 'width:50%',
-                progressval: '50'
             }
         ],
         github: 'https://github.com/vinaysomawat',
@@ -51,19 +46,6 @@ Add the portfolio data to `src/app/shared/details.ts` file.
                         summaryline: 'Worked in System Design, System Testing, API Integration and Cloud Services for the deployment and production of the application.'
                     }
                 ] 
-            },
-            {
-                company: 'Fossasia Organization',
-                role: 'Open Source Contributor',
-                duration: 'December 2018 - April 2019',
-                summary:[
-                    {
-                        summaryline: 'Contributed in projects Badgeyay, OpenEvent Frontend, account.susi.ai.'
-                    },
-                    {
-                        summaryline: 'Raised 13 pull requests and 10+ front-end and backend issues. Also reviewed, perfected and pushed the codes of other developers in production.'
-                    }
-                ] 
             }
         ],
         education: [
@@ -75,15 +57,6 @@ Add the portfolio data to `src/app/shared/details.ts` file.
                         summaryline: 'Courses undertaken Data Strucutures and Algorithms, Operating Systems, Database Management Systems, Networks, Distributed Computing, Object Oriented Programming, Computer Architecture.'
                     }
                 ]
-            },
-            {
-                degree: 'Intermediate',
-                institute: 'Board of Secondary Education, Rajasthan',
-                summary: [
-                    {
-                        summaryline: 'Courses undertaken Physics, Chemistry and Mathematics.'
-                    }
-                ]
             }
         ],
         mail: 'vinaysomawat40@gmail.com',
@@ -91,40 +64,12 @@ Add the portfolio data to `src/app/shared/details.ts` file.
             {
                 name: 'Linkdin',
                 link: 'https://www.linkedin.com/in/vinaysomawat/'
-            },
-            {
-                name: 'Twitter',
-                link: 'https://www.linkedin.com/in/vinaysomawat/'
-            },
-            {
-                name: 'Quora',
-                link: 'https://quora.com/profile/Vinay-Somawat'
-            },
-            {
-                name: 'Medium',
-                link: 'https://medium.com/@vinaysomawat'
-            },
-            {
-                name: 'Instagram',
-                link: 'https://www.instagram.com/somawatvinay/'
-            },
+            }
         ],
         cpprofile: [
             {
                 name: 'CodeChef',
                 link: 'https://www.codechef.com/users/somawatvinay'
-            },
-            {
-                name: 'HackerRank',
-                link: 'https://www.hackerrank.com/somawatvinay'
-            },
-            {
-                name: 'HackerEarth',
-                link: 'https://www.hackerrank.com/somawatvinay'
-            },
-            {
-                name: 'Geeksforgeeks',
-                link: 'https://auth.geeksforgeeks.org/user/somawatvinay/profile'
             }
         ],
         androiddevproject: [
@@ -144,25 +89,7 @@ Add the portfolio data to `src/app/shared/details.ts` file.
                         name: 'Photoshop'
                     }
                 ]
-            },
-            {
-                projectname: 'CareerHigh-App',
-                image: '/angular/assets/images/carrerhigh.png',
-                summary: 'The app shows the content of website careerhigh.in in android devices.',
-                preview: 'https://github.com/vinaysomawat/CareerHigh-Android',
-                techstack: [
-                    {
-                        name: 'java'
-                    },
-                    {
-                        name: 'XML'
-                    },
-                    {
-                        name: 'Photoshop'
-                    }
-                ]
             }
-
         ],
         softwaredevproject: [
             {
@@ -176,23 +103,6 @@ Add the portfolio data to `src/app/shared/details.ts` file.
                     },
                     {
                         name: 'Firebase'
-                    }
-                ]
-            },
-            {
-                projectname: 'WhatsApp-Bot',
-                image: '/angular/assets/images/whatsappbot.jpg',
-                summary: 'Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.',
-                preview: 'https://github.com/vinaysomawat/WhatsApp-Bot',
-                techstack: [
-                    {
-                        name: 'Selenium'
-                    },
-                    {
-                        name: 'Chrome Webdriver'
-                    },
-                    {
-                        name: 'Python'
                     }
                 ]
             }
@@ -209,44 +119,6 @@ Add the portfolio data to `src/app/shared/details.ts` file.
                     },
                     {
                         name: 'AWS'
-                    },
-                    {
-                        name: 'Bootstrap'
-                    },
-                    {
-                        name: 'JavaScript'
-                    },
-                    {
-                        name: 'Heroku'
-                    }
-                ]
-            },
-            {
-                projectname: 'Programming Diaries',
-                image: '/angular/assets/images/programmingdiaries.png',
-                summary: 'Developed an blog application to provide content on Programming, web and android development to all the programmers and budding programmers across the internet.',
-                preview: 'https://programmingdiaries.herokuapp.com/',
-                techstack: [
-                    {
-                        name: 'Django'
-                    },
-                    {
-                        name: 'SQLite3'
-                    },
-                    {
-                        name: 'Bootstrap'
-                    },
-                    {
-                        name: 'HTML5'
-                    },
-                    {
-                        name: 'CSS3'
-                    },
-                    {
-                        name: 'JavaScript'
-                    },
-                    {
-                        name: 'Heroku'
                     }
                 ]
             }
