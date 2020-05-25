@@ -1,0 +1,47 @@
+<div id="colorlib-main">
+  <!------Skills---------------->
+  <section class="colorlib-skills" data-section="skills">
+     <div class="colorlib-narrow-content">
+        <div class="row">
+           <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <!--	<span class="heading-meta">My Specialty</span> -->
+              <h2>Profile Links</h2>
+              <hr>
+           </div>
+        </div>
+        <div class="row">
+           <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft" *ngFor="let profile of details.cpprofile">
+              <div class="progress-wrap">
+                 <strong>
+                    <a href="{{profile.link}}">
+                       <p style="color:firebrick">{{profile.name}}</p>
+                    </a>
+                 </strong>
+              </div>
+           </div>
+        </div>
+     </div>
+  </section>
+  <section class="colorlib-skills" data-section="skills">
+     <div class="colorlib-narrow-content">
+        <div class="row">
+           <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <!--	<span class="heading-meta">My Specialty</span> -->
+              <h2>Social Links</h2>
+              <hr>
+           </div>
+        </div>
+        <div class="row">
+         <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft" *ngFor="let socialprofile of details.socialMedia">
+            <div class="progress-wrap">
+               <strong>
+                  <a href="{{socialprofile.link}}">
+                     <p style="color:dodgerblue">{{socialprofile.name}}</p>
+                  </a>
+               </strong>
+            </div>
+         </div>
+      </div>
+     </div>
+  </section>
+</div>

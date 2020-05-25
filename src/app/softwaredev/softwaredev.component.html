@@ -1,0 +1,54 @@
+<div id="colorlib-main">
+  <section class="colorlib-about" data-section="about">
+     <div class="colorlib-narrow-content">
+        <div class="row">
+           <div class="col-md-12">
+              <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                 <div class="col-md-12">
+                    <div class="about-desc">
+                       <h2>Software Development</h2>
+                       <hr>
+                       <div class="col-md-12">
+                        <article class="timeline-entry animate-box" data-animate-effect="fadeInRight" *ngFor="let softwaredev of details.softwaredevproject">
+                           <br>
+                           <ul class="fa-ul mb-0">
+                              <!-- <article class="timeline-entry animate-box" data-animate-effect="fadeInRight"> -->
+                              <li>
+                                 <i class="fa-li fa fa-check"></i>
+                                 <div>
+                                    <a href="{{softwaredev.preview}}" style="text-decoration:none;">
+                                       <div>
+                                          <h4 class="mb-3">{{softwaredev.projectname}}</h4>
+                                       </div>
+                                       <div
+                                          class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
+                                          <div id="divMain">
+                                             <div id='left-div' class="resume-content">
+                                                <img style='float:left; margin:0 20px;' width='300px;' class='img-fluid'
+                                                   src='{{softwaredev.image}}'>
+                                             </div>
+                                             <div id='right-div' class='resume-content'>
+                                                <div class="subheading mb-0">
+                                                   <p>{{softwaredev.summary}}</p>
+                                                </div>
+                                                <div class="mb-0">
+                                                   <span class='badge badge-secondary' *ngFor="let techs of softwaredev.techstack"> {{techs.name}}</span>
+                                                </div>
+                                                <br><br>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </a>
+                                 </div>
+                              </li>
+                           </ul>
+                        </article>
+                     </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+  </section>
+</div>
