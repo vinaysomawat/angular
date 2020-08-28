@@ -32,12 +32,12 @@
               "src/assets/css/github-calendar-responsive.css"
             ],
             "scripts": [
+              "src/assets/js/jquery.min.js",
               "src/assets/js/bootstrap.min.js",
               "src/assets/js/canvas.js",
               "src/assets/js/jquery.countTo.js",
               "src/assets/js/jquery.easing.1.3.js",
               "src/assets/js/jquery.flexslider-min.js",
-              "src/assets/js/jquery.min.js",
               "src/assets/js/jquery.waypoints.min.js",
               "src/assets/js/main.js",
               "src/assets/js/modernizr-2.6.2.min.js",
