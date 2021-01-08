@@ -5,7 +5,7 @@ import { DETAILS } from '../shared/details';
 @Component({
   selector: 'app-cpprofile',
   templateUrl: './cpprofile.component.html',
-  styleUrls: ['./cpprofile.component.css']
+  styleUrls: ['../app.component.css']
 })
 export class CpprofileComponent implements OnInit {
 

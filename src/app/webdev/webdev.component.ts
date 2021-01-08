@@ -5,7 +5,7 @@ import { DETAILS } from '../shared/details';
 @Component({
   selector: 'app-webdev',
   templateUrl: './webdev.component.html',
-  styleUrls: ['./webdev.component.css']
+  styleUrls: ['../app.component.css']
 })
 export class WebdevComponent implements OnInit {
   
