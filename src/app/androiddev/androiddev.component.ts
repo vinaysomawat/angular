@@ -5,7 +5,7 @@ import { DETAILS } from '../shared/details';
 @Component({
   selector: 'app-androiddev',
   templateUrl: './androiddev.component.html',
-  styleUrls: ['./androiddev.component.css']
+  styleUrls: ['../app.component.css']
 })
 export class AndroiddevComponent implements OnInit {
 
