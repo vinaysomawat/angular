@@ -1,6 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Detail } from '../shared/detail';
-import { DETAILS } from '../shared/details';
 
 @Component({
   selector: 'app-sidebar',
@@ -8,8 +6,6 @@ import { DETAILS } from '../shared/details';
   styleUrls: ['../app.component.css']
 })
 export class SidebarComponent implements OnInit {
-
-  details: Detail = DETAILS;
 
   constructor() { }
 

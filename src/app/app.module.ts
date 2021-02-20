@@ -2,29 +2,24 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { AndroiddevComponent } from './androiddev/androiddev.component';
-import { CpprofileComponent } from './cpprofile/cpprofile.component';
 import { HomeComponent } from './home/home.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-import { WebdevComponent } from './webdev/webdev.component';
-import { SoftwaredevComponent } from './softwaredev/softwaredev.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
+import { ProjectsComponent } from './projects/projects.component';
+import { AppService } from './app.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CpprofileComponent,
-    WebdevComponent,
-    SoftwaredevComponent,
-    AndroiddevComponent,
     SidebarComponent,
-    HomeComponent
+    HomeComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [AppService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

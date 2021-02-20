@@ -34,7 +34,6 @@
             "scripts": [
               "src/assets/js/jquery.min.js",
               "src/assets/js/bootstrap.min.js",
-              "src/assets/js/canvas.js",
               "src/assets/js/jquery.countTo.js",
               "src/assets/js/jquery.easing.1.3.js",
               "src/assets/js/jquery.flexslider-min.js",
